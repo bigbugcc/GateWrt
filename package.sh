@@ -15,3 +15,6 @@ git clone --depth 1 -b master  https://github.com/UnblockNeteaseMusic/luci-app-u
 
 # OpenClash
 git clone --depth 1 https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+
+# HomeProxy
+git clone --depth 1 https://github.com/immortalwrt/homeproxy package/homeproxy
