@@ -23,3 +23,6 @@ echo "src-git istore https://github.com/linkease/istore;main" >> feeds.conf.defa
 # 替换默认主题
 rm -rf package/lean/luci-theme-argon 
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/lean/luci-theme-argon
+
+# firewall
+sed -i 's/+firewall/+uci-firewall/g' feeds/luci/applications/luci-app-firewall/Makefile
