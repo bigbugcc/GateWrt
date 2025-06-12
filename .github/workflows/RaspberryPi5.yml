@@ -9,7 +9,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  EXTERNAL_FILE: configs/luci/.config
+  EXTERNAL_FILE: configs/.config
   CONFIG_FILE: configs/RPi5.config
   SYS_CONF_SH: configure.sh
   PACKS: package.sh
